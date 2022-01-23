@@ -1,0 +1,30 @@
+.header {
+    width: 100%;
+    height: 11vh;
+    background-color: black;
+    position: absolute;
+    border-bottom-style: ridge;
+    border-color: white;
+    z-index: 2;
+}
+
+.headerContents {
+    margin-left: 5%;
+    position: relative;
+    margin-top: 0.8%;
+
+}
+
+.headerTitle {
+    font-family: "Lucida Handwriting", cursive;
+    color: wheat;
+    font-size: 5.5vh;
+}
+
+
+@media screen and (max-width: 850px) {
+    .headerTitle {
+        text-align: center;
+        font-size: 5.5vh;
+    }
+}

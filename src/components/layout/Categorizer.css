@@ -1,0 +1,96 @@
+.categorizerContainer {
+    height: 78vh;
+    position: relative;
+    width: 60%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 7%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.carouselContainer {
+    max-height: 100%;
+    max-width: 100%;
+    
+}
+
+.carousel {
+    
+    max-height: 100%;
+    
+    
+}
+
+.carouselImage {
+    height: 78vh;
+    width: 100%;
+    
+    
+}
+
+.optionsBar {
+    background-color: white;
+    height: 10vh;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    position: relative;
+    
+}
+
+.options {
+    float: left;
+    margin-left: 8%;
+    position: relative;
+}
+
+.saveButton {
+    float: left;
+    margin-left: 12%;
+    position: relative;
+}
+
+.optionsLabel {
+    text-align: center;
+}
+
+
+@media screen and (max-width: 850px) {
+    .categorizerContainer {
+        width: 94%;
+        margin-top: 35%;
+        margin-right: 3%;
+        margin-left: 3%;
+        display: block;
+
+    }
+
+    .carouselContainer {
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    .optionsBar {
+        height: 22vh;
+    }
+
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1000px) {
+    .categorizerContainer {
+        margin-top: 18%;
+    }
+
+    .optionsBar {
+        height: 12vh;
+    }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1300px) {
+    .optionsBar {
+        height: 15vh;
+    }
+
+    .options {
+        margin-left: 5%;
+    }
+}

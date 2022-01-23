@@ -1,0 +1,89 @@
+
+
+.statsContainer {
+    height: 60vh;
+    width: 20%;
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-right: 2%;
+    margin-top: 7%;
+    float: right;
+    clear: right;
+    padding: 0;
+}
+
+.statsHeaderContainer {
+    height: 15%;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    border-bottom-style: ridge;
+    display: block;
+    text-align: center;
+
+}
+
+.statsHeaderContainerText {
+    color: wheat;
+    text-align: center;
+    margin-top: 7.5%;
+    display: inline-block;
+    
+}
+
+.pieContainer {
+    width: 100%;
+    height: 70%;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .statsContainer {
+        width: 94%;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 60%;
+        display: block;
+        height: 90vh;
+        padding-bottom: 5vh;
+        
+    }
+
+    .pieContainer {
+        width: 100%;
+        height: 80%;
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1000px) {
+    .statsContainer {
+        width: 30%;
+        margin-top: 18%;
+        height: 55vh;
+    }
+
+    .statsHeaderContainer {
+        height: 10%;
+    }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1300px) {
+
+    .statsContainer {
+        width: 30%;
+        height: 80vh;
+    }
+
+    .statsHeaderContainer {
+        height: 14%;
+    }
+
+    .statsHeaderContainerText {
+        margin-top: 5%;
+    }
+
+    .pieContainer {
+        height: 70%;
+    }
+}

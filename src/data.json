@@ -1,0 +1,9 @@
+[{
+   "id": 1,
+   "task": "Categorize clothes",
+   "complete": false
+ }, {
+   "id": 2,
+   "task": "Do laundry",
+   "complete": true
+ }]
